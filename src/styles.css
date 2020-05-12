@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+#infobar-wrapper {
+  background: yellow;
+}
+
+#market-wrapper {
+  background: mediumpurple;
+}
+
+#city-wrapper {
+  background-color: #af7620;
+}
+#player-field-wrapper {
+  background-color: #2fec04;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.cardslot {
+  margin-top: 1vh;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  height: 33vh;
+  border: darkgray 2px dashed;
+  background: lightgrey;
+  opacity: 50%;
+}
+
+.mastermind-cardslot {
+  margin-top: 0.5vh;
+  height: 34vh;
+  border: darkgray 2px dashed;
+  background: lightgrey;
+  opacity: 50%;
+}
+
+.cardslot-text {
+  font-size: xx-large;
+  color: #555353;
+  bottom: 1vh;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}

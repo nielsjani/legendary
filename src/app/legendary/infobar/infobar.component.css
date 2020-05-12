@@ -1,0 +1,15 @@
+.infobar {
+  height: 100vh;
+  font-size: 150%;
+}
+
+.infobar-icon {
+  max-width: 50%;
+  min-width: 50%;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}

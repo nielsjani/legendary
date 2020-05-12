@@ -1,0 +1,7 @@
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.col-1-infobar { width: 5%; }
+.col-11-game { width: 95%; }
