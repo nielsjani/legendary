@@ -1,15 +1,20 @@
 <div style="height: 30vh;" id="player-field-wrapper">
   <div class="row no-margin">
-    <div class="col-11" style="background: pink">
+    <div class="col" style="">
       <div class="row">
-        <div class="col">CARD</div>
-        <div class="col">CARD</div>
-        <div class="col">CARD</div>
-
+        <div *ngFor="let card of getHand()" class="col hand-card" [@slideUpDown]="isHoveringOver(card) ? 'slidUp' : 'slidDown'">
+          <p>
+            {{card.getHeaderInfo()}}
+            <i class="fas fa-search card-detail-viewer-toggle" (click)="showCardDetail(card)"></i>
+          </p>
+          <img class="hand-card-img"
+               [src]="card.getArt()"
+               (mouseenter)="hoveringOverCard(card)"
+               (mouseleave)="leaveHoveringOverCard(card)"
+               (click)="play(card)"
+              />
+        </div>
       </div>
-    </div>
-    <div class="col-1" style="background: orange">
-      <button>Play remaining cards</button>
     </div>
   </div>
 </div>

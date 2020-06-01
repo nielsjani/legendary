@@ -1,0 +1,16 @@
+.hand-card {
+  /*margin-top: 7vh;*/
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  /*max-height: 23vh;*/
+  overflow: hidden;
+}
+
+.card-detail-viewer-toggle {
+  float:right;
+  cursor: pointer;
+}
+
+.hand-card-img {
+  cursor: pointer;
+}

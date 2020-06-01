@@ -7,6 +7,7 @@ import { MarketComponent } from './legendary/market/market.component';
 import { CityComponent } from './legendary/city/city.component';
 import { InfobarComponent } from './legendary/infobar/infobar.component';
 import { PlayerFieldComponent } from './legendary/player-field/player-field.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PlayerFieldComponent } from './legendary/player-field/player-field.comp
     PlayerFieldComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
